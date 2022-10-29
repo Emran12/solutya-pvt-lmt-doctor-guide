@@ -1,0 +1,50 @@
+.Container{
+    height: 104px;
+    padding: 29px 70px;
+    display: flex;
+    background: #273240;
+}
+
+.navItem {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+#navStart{
+    padding-right: 219px;
+   
+}
+
+#navStart img{
+    width: 49px;
+    height: 55px;
+}
+
+.logoText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    display: inline-block;
+    text-transform: capitalize;
+    color: #FF8B42;
+
+}
+
+#navMid{
+    padding-right: 70px;
+}
+#navMid img {
+    margin-right: 13px;
+}
+.userAccess {
+
+   
+}
