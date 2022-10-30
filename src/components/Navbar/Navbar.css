@@ -2,6 +2,7 @@
     height: 104px;
     padding: 29px 70px;
     display: flex;
+    align-items: center;
     background: #273240;
 }
 
@@ -18,17 +19,19 @@
 
 .navStart{
     padding-right: 219px;
+    text-decoration: none;
     display: flex;
     flex-direction: row;
-    justify-items: center;
-   
+    align-items: center;  
 }
 .navStart img{
     width: 49px;
     height: 55px;
 }
 
-.navStart span{
+.navStart p{
+    display: inline-block;
+   
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -45,7 +48,18 @@
 #navMid img {
     margin-right: 13px;
 }
-.userAccess {
-
+.register {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 16px 21px 34px;
+    background: #FF8B42;
+    border-radius: 6px;
    
+}
+.login{
+    margin-right: 19px;
 }
