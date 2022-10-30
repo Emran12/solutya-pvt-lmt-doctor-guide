@@ -3,7 +3,7 @@
     margin-left: 70px;
     margin-right: 70px;   
 }
-.eventHeader{
+.eventTitle{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -11,7 +11,7 @@
     line-height: 60px;
     text-align: center;
 }
-.eventInfo{
+.eventSubTitle{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -20,5 +20,16 @@
     text-align: center;
     padding-top: 12px;
     padding-bottom: 70px;
-    word-wrap: break-word;
+}
+
+.event {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+#event2{
+    margin-top: 50px;
+}
+#event2 > div {
+    padding-left: 111px;
 }
