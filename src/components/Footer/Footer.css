@@ -1,0 +1,98 @@
+.container{
+    height: 664px;
+    background-color: #273240;
+    padding: 139px 64px 49px 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.doctorInfoTitle{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+.doctorInfoTitle img{
+    width: 58px;
+    height: 64px;
+}
+.doctorInfoTitle span{
+    font-family: Poppins;
+    font-style:  SemiBold;
+    font-size: 28px; 
+    line-height:  42px; 
+    color: #FF8B42;
+}
+.doctorInfo{
+    font-family:  Open Sans; 
+    font-style:  Regular;  
+    font-size:  16px; 
+    line-height:  28px;
+    color: #FFFFFF; 
+}
+.doctorSocial{
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.doctorSocial p{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #FF8B42;
+}
+
+.doctorSocial img{
+    padding: 10px;
+}
+.footerHeader{
+    font-family: Poppins;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-bottom: 34px;
+}
+
+
+.footer p p{
+    font-family: Open Sans;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.footer p  hr{
+    display: inline-block;
+    width: 151px;
+    height: 1px;
+    color:#D9D9D9;
+}
+
+.contactUs p p{
+    display: inline;
+    margin-left: 21px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+.schedule{
+    width: 189px;
+    height: 56px;
+    background-color: #FF8B42;
+}
+.schedule p{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500px;
+    text-align: left;
+    justify-items: center;
+    justify-content: center;
+}

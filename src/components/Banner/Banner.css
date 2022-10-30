@@ -1,0 +1,24 @@
+#groupCurve{
+    width: 244px;
+    height: 244px;
+    margin-top: 49px;
+    margin-right: 78px;
+}
+
+.bannerInfo{
+    padding-left: 180px;
+}
+#dotGrid{
+    width: 132px;
+    height: 132px;
+    margin-top: 67px;
+    margin-bottom: 94px;
+}
+
+#bannerHeading{
+    font-family: Poppins; 
+    font-style: Bold; 
+    font-size: 40px;
+    line-height: 60px;
+    color: #273240;
+}

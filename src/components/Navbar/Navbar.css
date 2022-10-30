@@ -16,23 +16,24 @@
     display: inline-block;
 }
 
-#navStart{
+.navStart{
     padding-right: 219px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
    
 }
-
-#navStart img{
+.navStart img{
     width: 49px;
     height: 55px;
 }
 
-.logoText{
+.navStart span{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 42px;
-    display: inline-block;
     text-transform: capitalize;
     color: #FF8B42;
 

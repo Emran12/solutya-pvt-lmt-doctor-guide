@@ -6,10 +6,10 @@ import downArrow from "../../assets/icons/down-arrow.png";
 const Navbar = () => {
   return (
     <nav className="Container">
-      <div id="navStart">
+      <div className="navStart">
         <Link to="/">
           <img src={logo} alt="logo" />
-          <p className="logoText">Doctor Guide</p>
+          <span>Doctor Guide</span>
         </Link>
       </div>
       <div id="navMid">
