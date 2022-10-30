@@ -11,7 +11,7 @@ const Testimonial = () => {
         height: "510px",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
-        opacity: 0.2,
+        opacity: 0.9,
       }}
     >
       <h1 className="feedBackHeader">Patient Feedback</h1>

@@ -1,0 +1,34 @@
+.deptContainer{
+    margin-left: 70px;
+    margin-right: 68px;   
+}
+.depTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #273240;
+    text-align: center;
+    margin-top: 107px;
+    margin-bottom: 12px;
+}
+
+.depSubTitle{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #273240;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.serviceContainer {
+    width: 303px;
+    height: 54px;
+    background: #6E27E0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

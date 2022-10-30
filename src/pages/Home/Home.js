@@ -1,5 +1,7 @@
 import React from "react";
+import Achievement from "../../components/Achievement/Achievement";
 import Banner from "../../components/Banner/Banner";
+import Department from "../../components/Department/Department";
 import Event from "../../components/Event/Event";
 import Footer from "../../components/Footer/Footer";
 import Subscribe from "../../components/Subscribe/Subscribe";
@@ -10,7 +12,9 @@ const Home = () => {
   return (
     <div>
       <Banner />
-      <Testimonial />
+      <Achievement />
+      <Department />
+      {/* <Testimonial /> */}
       <Event />
       <Subscribe />
       <Footer />

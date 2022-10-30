@@ -1,0 +1,22 @@
+.achievementContainer{
+    margin-top: 118px;
+    height: 510px;
+    background: linear-gradient(180deg, rgba(0, 137, 186, 0) 0%, rgba(76, 7, 188, 0.83) 100%);
+
+}
+.achievements{
+    padding: 113px 73px 148px 73px;
+}
+.achievementInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+.achievementTitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #d10b0b;
+}
