@@ -1,0 +1,22 @@
+.subscribeContainer{
+    height: 448px;
+    border-radius: 20px;
+    background-color: #0089BA;
+    margin: 196px 70px 148px 70px; 
+    position: relative; 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);   
+}
+.subscribeLeft img{
+    position: absolute;
+    width: 354px;
+    height: 524px;
+    padding-left: 102px;
+    top: -76px;
+}
+.emailInputField{
+    width: full;
+    height: 78px;
+    padding-right: 78px;
+    border-radius: 6px;
+}

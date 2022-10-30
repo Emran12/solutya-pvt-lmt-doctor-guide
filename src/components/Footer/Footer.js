@@ -11,7 +11,7 @@ import upArrow from "../../assets/icons/upArrow.png";
 
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="footerContainer">
       <div>
         <h1 className="doctorInfoTitle">
           <img src={logo} alt="" />
